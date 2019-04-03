@@ -48,15 +48,6 @@ studio_users:
     shell: /bin/bash
     update_password: on_create
 
-  - username: ajasinski
-    name: "Adam Jasinski"
-    groups:
-      - admin
-    ssh_key:
-      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFVpsxyzmI1cy9xiLikWZaJAHSS/phnQydCz9yqCmRn ajasinski@ELITEBOOK"
-    shell: /bin/bash
-    update_password: on_create
-
   - username: ttaylor
     name: "Tim Taylor"
     groups:
@@ -182,6 +173,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAB9QC8oPp3Md4fgcFo6Wj9xB6MqyhnCbbIBSbNykBeyFtP
     name: "Steven Bapaga"
     groups:
       - studio
+      - admin
     ssh_key:
       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBOxbHBE43Vu8NOZjFE9HBcTpaMCK3obUZQGgogyFNxIAIyO/2VnQKZeBx9UHRQnzWj+y8k/fiPyXnB+uptKDyyUN9Q0VeSSIBlgTVdO181WYO0yGKy2dLV6I88SalEbLuM1Gcr/Ws1fMMR0MA5Rl1pXwJgPAoExkhx7eNa/EDBIdYtO/uRD/D3H5LVQOTxrumid1J6t2MvCTosVtRwpO/XflT0IAiFSgIktIdqpslfEGLbFXTi8lPu9cVnqwLk11Zwbpwp/Buum5xWexkyHx+Gz4jtTwLjlVb1mM89kHYBvEuRJU5i8nlVve6g4RUmT3avr1cJ7vPqTb2nuEMk1tl sbapaga@gmail.com"
     shell: /bin/bash
@@ -264,6 +256,7 @@ users_deleted:
   - username: dgauld
   - username: kebblewhite
   - username: georgesadathian
+  - username: ajasinski
 
 nginx_extra_http_options: |
   ##
